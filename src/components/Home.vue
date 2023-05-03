@@ -38,7 +38,7 @@
         <p class="text-sm xl:text-3xl xl:mt-12 xl:pb-4 ">Sono un giovane <span class="font-semibold italic"> Frontend Developer</span> che vorrebbe far diventare la sua passione un lavoro,
           residente a Spilimbergo in provincia di Pordenone.
         </p>
-          <h3 class="text-right pb-3 mt-3 font-bold " @click="showSkills">Skills<img src="../assets/image/home/arrow right.png" alt="back" class="w-2 mt-1 ml-2 float-right xl:w-6"></h3>
+          <h3 class="text-right pb-3 mt-3 font-bold xl:text-xl" @click="showSkills">Skills<img src="../assets/image/home/arrowRight.png" alt="back" class="w-2 mt-1 ml-2 float-right xl:w-4"></h3>
       </div>
     </div>
       <div v-else class="relative bg-white rounded-lg w-[300px] m-auto xl:w-[1200px] xl:top-14 xl:left-7 xl:p-4">
@@ -66,7 +66,7 @@
           </div>
         </div>
         </div>
-        <h3 class="text-left pb-3 mt-3" @click="showSkills"><img src="../assets/image/home/arrow.png" alt="back" class="w-3 ml-5 "></h3>
+        <h3 class="text-left pb-3 mt-3" @click="showSkills"><img src="../assets/image/home/arrowLeft.png" alt="back" class="w-3 ml-5 xl:w-5"></h3>
       </div>
   </div>
 

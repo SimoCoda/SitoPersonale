@@ -22,7 +22,7 @@
         <li class="text-black text-2xl cursor-pointer" @click="goBio">Home</li>
         <li class="text-black text-2xl cursor-pointer" @click="goCv">Cv</li>
         <li class="text-black text-2xl cursor-pointer" @click="goPortfolio">Portfolio</li>
-        <li class="text-black text-2xl cursor-pointer border-b-2 border-red-900 w-[124px]" @click="goContattami">Contattami</li>
+        <li class="text-black text-2xl cursor-pointer underline" @click="goContattami">Contattami</li>
       </ul>
     </nav>
   </div>

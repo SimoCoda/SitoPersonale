@@ -2,7 +2,8 @@ body{
     background-color: rgb(229 231 240)
 }
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 @tailwind base;
 @tailwind components;

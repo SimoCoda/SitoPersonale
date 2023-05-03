@@ -34,7 +34,7 @@
     <div class="flex w-full mb-14 mt-10 xl:mb-0">
     <div class="m-auto relative" id="left1">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo1">
-        <img src="../assets/image/portfolio/covid.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo1">
+        <img src="../assets/image/portfolio/covid.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo1">
         <div>  
           <a href="https://trackingcovid.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">Covid-19 Tracking</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Covid19-Tracking" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>
@@ -47,7 +47,7 @@
     </div>
     <div class="m-auto relative" id="right1">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo2">
-        <img src="../assets/image/portfolio/ecommerce.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo2">
+        <img src="../assets/image/portfolio/ecommerce.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo2">
         <div>
           <a href="https://e-commerce-synthetic-meat.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">E-commerce carni</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/E-commerce" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>
@@ -64,7 +64,7 @@
     <div class="flex w-full mb-14 xl:mb-0 xl:mt-10">
     <div class="m-auto relative" id="left2">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo3">
-        <img src="../assets/image/portfolio/tria.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo3">
+        <img src="../assets/image/portfolio/tria.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo3">
         <div>
           <a href="https://gameoftiktak.netlify.app/"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">Tiktok Toe</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/TikTok-Toe" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>
@@ -79,7 +79,7 @@
     </div>
     <div class="m-auto relative" id="right2">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo4">
-        <img src="../assets/image/portfolio/quality.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo4">
+        <img src="../assets/image/portfolio/quality.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo4">
         <div>
           <a href="https://quality-of-life-in-cities.vercel.app/"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">La qualità della vita</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Quality_of_life_in_cities" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>
@@ -95,7 +95,7 @@
     <div class="flex w-full xl:mt-10">
     <div class="m-auto relative" id="left3">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo5">
-        <img src="../assets/image/portfolio/counter.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo5">
+        <img src="../assets/image/portfolio/counter.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo5">
         <div>
           <a href="https://simocoda.github.io/Counter/"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">Il contatore</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Counter" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>
@@ -109,7 +109,7 @@
     </div>
     <div class="m-auto relative" id="right3">
       <div class="progetto relative h-64 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px]" v-if="!watchInfo6">
-        <img src="../assets/image/portfolio/miosito.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[12px] xl:rounded-t-none" @click="goInfo6">
+        <img src="../assets/image/portfolio/miosito.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl xl:border-r-2 xl:border-b-0 xl:border-r-black xl:rounded-l-[11px] xl:rounded-t-none" @click="goInfo6">
         <div>
           <a href="https://simocoda.github.io/github"><h2 class="text-center mt-6 mb-6 text-lg xl:text-4xl xl:ml-5 xl:mb-[72px]">Il mio primo sito</h2></a>
           <div class="flex m-auto"><p class="ml-3 mt-1 italic xl:text-2xl xl:ml-5 xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/SimoCoda.github.io" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="35" class="ml-3 xl:pt-10"></a></div>

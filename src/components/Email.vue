@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center text-5xl pt-3 mb-3 xl:text-8xl" id="text1">CONTATTAMI</h1>
+  <h1 class="text-center text-5xl pt-9 mb-12 xl:text-8xl" id="text1">CONTATTAMI</h1>
   <div class="pl-4 bg-white w-[330px] m-auto pb-4 xl:w-[900px] xl:p-10" id="text">
     <form ref="form" @submit.prevent="sendEmail" class="">
       <label class="flex text-xl mb-2 pt-2 xl:text-5xl xl:pb-3">Name:</label>

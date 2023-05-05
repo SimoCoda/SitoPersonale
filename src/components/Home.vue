@@ -27,7 +27,7 @@
     </nav>
   </div>
 
-  <div class="mt-4 w-full relative xl:mb-20">
+  <div class="mt-[35px] w-full relative xl:mb-20">
     <div v-if="!skills" class="xl:flex">
       <div class="relative xl:top-32 xl:left-24">
         <img src="../assets/image/home/io.png" alt="io" width="320" class="m-auto mb-2 border-2 border-black xl:border-4 xl:border-black xl:w-[650px]" id="image">
@@ -35,7 +35,7 @@
       <div class="relative bg-white rounded-lg w-[300px] top-8 m-auto p-3 pb-0 xl:w-[800px] xl:left-[100px] xl:top-36" id="text">
         <h1 class="mb-3 text-3xl xl:mb-2 xl:text-4xl xl:pb-4"><i>Simone Codarin</i></h1>
         <hr class="mb-3">
-        <p class="text-sm xl:text-3xl xl:mt-12 xl:pb-4 ">Sono un giovane <span class="font-semibold italic"> Frontend Developer</span> che vorrebbe far diventare la sua passione un lavoro,
+        <p class="text-base xl:text-3xl xl:mt-12 xl:pb-4 ">Sono un giovane <span class="font-semibold italic"> Frontend Developer</span> che vorrebbe far diventare la sua passione un lavoro,
           residente a Spilimbergo in provincia di Pordenone.
         </p>
           <h3 class="text-right pb-3 mt-3 font-bold xl:text-xl" @click="showSkills">Skills<img src="../assets/image/home/arrowRight.png" alt="back" class="w-2 mt-1 ml-2 float-right xl:w-4"></h3>
@@ -45,24 +45,24 @@
         <div class="flex">
         <div class="m-auto mt-4 xl:flex">
           <div class="flex mb-4 xl:flex-col">
-            <img src="../assets/image/loghi_nome/javascript.png" width="70" alt="javascript" class="mr-10 xl:m-10 xl:w-40" id="skill1">
-            <img src="../assets/image/loghi_nome/vueJs.png" width="70" alt="vuejs" class="xl:m-10 xl:w-40" id="skill2">
+            <img src="../assets/image/loghi_nome/javascript.png" width="64" alt="javascript" class="mr-10 xl:m-10 xl:w-40" id="skill1">
+            <img src="../assets/image/loghi_nome/vueJs.png" width="64" alt="vuejs" class="xl:m-10 xl:w-40" id="skill2">
           </div>
           <div class="flex mb-4 xl:flex-col">
-            <img src="../assets/image/loghi_nome/tailwind.png" width="70" alt="tailwind" class="mr-10 xl:m-10 xl:w-40" id="skill3">
-            <img src="../assets/image/loghi_nome/chartJs.png" width="70" alt="chartjs" class="xl:m-10 xl:w-40" id="skill4">
+            <img src="../assets/image/loghi_nome/tailwind.png" width="64" alt="tailwind" class="mr-10 xl:m-10 xl:w-40" id="skill3">
+            <img src="../assets/image/loghi_nome/chartJs.png" width="64" alt="chartjs" class="xl:m-10 xl:w-40" id="skill4">
           </div>
           <div class="flex mb-4 xl:flex-col">
-            <img src="../assets/image/loghi_nome/pinia.png" width="70" alt="pinia" class="mr-10 xl:m-10 xl:w-40" id="skill5">
-            <img src="../assets/image/loghi_nome/boostrap.png" width="70" alt="boostrap" class="xl:m-10 xl:w-40" id="skill6">
+            <img src="../assets/image/loghi_nome/pinia.png" width="64" alt="pinia" class="mr-10 xl:m-10 xl:w-40" id="skill5">
+            <img src="../assets/image/loghi_nome/boostrap.png" width="64" alt="boostrap" class="xl:m-10 xl:w-40" id="skill6">
           </div>
           <div class="flex mb-4 xl:flex-col">
-            <img src="../assets/image/loghi_nome/photoshop.png" width="70" alt="photoshop" class="mr-10 xl:m-10 xl:w-40" id="skill7">
-            <img src="../assets/image/loghi_nome/illustrator.png" width="70" alt="illustrator" class="xl:m-10 xl:w-40" id="skill8">
+            <img src="../assets/image/loghi_nome/photoshop.png" width="64" alt="photoshop" class="mr-10 xl:m-10 xl:w-40" id="skill7">
+            <img src="../assets/image/loghi_nome/illustrator.png" width="64" alt="illustrator" class="xl:m-10 xl:w-40" id="skill8">
           </div>
           <div class="flex xl:flex-col">
-            <img src="../assets/image/loghi_nome/inDesign.png" width="70" alt="indesign" class="mr-10 xl:m-10 xl:w-40" id="skill9">
-            <img src="../assets/image/loghi_nome/visualStudio.png" width="70" alt="indesign" class="xl:m-10 xl:w-40" id="skill10">
+            <img src="../assets/image/loghi_nome/inDesign.png" width="64" alt="indesign" class="mr-10 xl:m-10 xl:w-40" id="skill9">
+            <img src="../assets/image/loghi_nome/visualStudio.png" width="64" alt="indesign" class="xl:m-10 xl:w-40" id="skill10">
           </div>
         </div>
         </div>

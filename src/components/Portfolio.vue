@@ -188,9 +188,11 @@ export default {
       0% {
         opacity: 0;
       }
-      
-      100% {
+      50% {
         opacity: 1;
+      }
+      100% {
+        opacity: 0;
       }
   }
 

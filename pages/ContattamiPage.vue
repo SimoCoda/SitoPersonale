@@ -1,5 +1,6 @@
 <template>
     <Contattami />
+    <Footer />
 </template>
 
 <script>

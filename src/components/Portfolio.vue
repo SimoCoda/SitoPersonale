@@ -102,9 +102,9 @@
         </div>
       </div>
       <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px] xl:flex-col" @click="goInfo5">
-        <p class="text-xs p-2 italic xl:text-[15px] xl:mb-4 xl:leading-6">Il primissimo progetto costruito non appena cominciato a masticare un po’ di javascript è stato proprio questo: il COUNTER. Una counter molto semplice in realtà con al di fuori del
+        <p class="text-[9px] p-2 italic xl:text-[15px] xl:mb-4 xl:leading-6">Il primissimo progetto costruito non appena cominciato a masticare un po’ di javascript è stato proprio questo: il COUNTER. Una counter molto semplice in realtà con al di fuori del
         numero tre diversi bottoni: il più, il meno e il tasto di reset per azzerare il tutto.</p>
-        <div class="flex"><p class="text-xs italic mt-2 m-auto xl:text-[15px] xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+        <div class="flex"><p class="text-[9px] italic mt-2 m-auto xl:text-[15px] xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     <div class="m-auto relative" id="right3">
@@ -116,7 +116,7 @@
         </div>
       </div>
       <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px] xl:flex-col" @click="goInfo6">
-        <p class="text-[10px] p-2 italic xl:text-[15px] xl:mb-3 xl:leading-6">Il mio primo sito web. Mi piace tenerlo per ricordarmi sempre da cosa sono partito, dalle prime volte che ho comicniato a scrivere codice e dal primo progetto che mi ha fatto immergere in questo fantastico mondo.
+        <p class="text-[9px] p-2 italic xl:text-[15px] xl:mb-3 xl:leading-6">Il mio primo sito web. Mi piace tenerlo per ricordarmi sempre da cosa sono partito, dalle prime volte che ho comicniato a scrivere codice e dal primo progetto che mi ha fatto immergere in questo fantastico mondo.
         Il sito non è nulla di che, troviamo solamente html e css con una piccola parte di javascript per quando rigurda la parte del "contattami", ma a me piace tenerlo come ricordo.
         </p>
       </div>

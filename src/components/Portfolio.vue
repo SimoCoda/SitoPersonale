@@ -42,7 +42,7 @@
       </div>
       <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px] xl:flex-col" @click="goInfo1">
         <p class="text-xs p-2 italic xl:text-xl xl:mb-[14px]">Una Web App che raffigura i dati del Covid 19 negli USA. Per creare questa App ho utilizzato due diverse API, una per raccogliere tutti i dati globali mentre l’altro per prendere tutti i dati di un singolo Stato.</p>
-        <p class="text-xs italic mt-[50px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Covid19-Tracking/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto xl:"></a></p>
+        <p class="text-xs italic mt-[82px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Covid19-Tracking/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto xl:"></a></p>
       </div>
     </div>
     <div class="m-auto relative" id="right1">
@@ -57,7 +57,7 @@
         <p class="text-[9px] p-2 italic xl:text-[17px]">In questo progetto ho voluto creare un qualcosa che al mondo d’oggi si usa praticamente ovunque: un E-commerce. Grazie ad un API sono riuscito a recuperare i vari prodotti che poi son stati stampati nella Home con 
         i relativi prezzi. Successivamente ho voluto aggiungere due page, una di info e una relativa al carrello nella quale si sarebbero trovati tutti i prodotti aggiunti con le relative quantità. Inoltre nella somma totale dei prezzi viene applicato 
         uno sconto del 10% nel caso ci sia un acquisto superiore ai tre prodotti.</p>
-        <p class="text-xs italic -mt-2 p-2 xl:text-lg xl:text-center xl:-mt-[13px]">Per info più specifiche:<a href="https://github.com/SimoCoda/E-commerce/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
+        <p class="text-xs italic -mt-[3px] p-2 xl:text-lg xl:text-center xl:-mt-[13px]">Per info più specifiche:<a href="https://github.com/SimoCoda/E-commerce/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
       </div>
     </div>
     </div>
@@ -74,7 +74,7 @@
         <p class="text-[9px] p-2 italic xl:text-[18px] xl:-mb-6">Il classico gioco della TRIA, penso tutti lo conosciate. Ci sono due giocatori che, nel mio caso, ho dato la possibilità di scegliere i nomi ad inizio gioco anche se poi c’è la possibilità di
         modificarli anche durante la sfida. L’obiettivo del gioco è quello di occupare con lo stesso simbolo 3 quadrati in qualsiasi senso (verticale, orizzontale oppure obliquo) per portarsi a casa un punto. Inoltre ho voluto implementare il gioco 
         con una classifica sapendo che anche in questi semplici giochi sono molto competitivo.</p>
-        <p class="text-xs italic mt-[20px] p-2 xl:text-lg xl:text-center xl:mt-0">Per info più specifiche:<a href="https://github.com/SimoCoda/TikTok-Toe/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
+        <p class="text-xs italic mt-[9px] p-2 xl:text-lg xl:text-center xl:mt-0">Per info più specifiche:<a href="https://github.com/SimoCoda/TikTok-Toe/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
       </div>
     </div>
     <div class="m-auto relative" id="right2">
@@ -88,7 +88,7 @@
       <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px] xl:flex-col" @click="goInfo4">
         <p class="text-[9px] p-2 italic xl:text-xl xl:-mb-[51px]">Questa è stata una delle mie prime Web App costruite con Javascript. La logica di questa applicazione è molto semplice: nella Home troveremo una casella di ricerca in cui ci sarà la possibilità di scrivere un nome 
         di una città. Una volta premuto INVIO viene stampato a schermo una serie di dati riguardo la vita nella città selezionata.</p>
-        <p class="text-xs italic mt-[75px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Quality_of_life_in_cities/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
+        <p class="text-xs italic mt-[77px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Quality_of_life_in_cities/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
       </div>
     </div>
     </div>
@@ -104,7 +104,7 @@
       <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black xl:h-60 xl:w-[750px] xl:flex xl:border-[3px] xl:flex-col" @click="goInfo5">
         <p class="text-xs p-2 italic xl:text-xl xl:mb-4">Il primissimo progetto costruito non appena cominciato a masticare un po’ di javascript è stato proprio questo: il COUNTER. Una counter molto semplice in realtà con al di fuori del
         numero tre diversi bottoni: il più, il meno e il tasto di reset per azzerare il tutto.</p>
-        <p class="text-xs italic mt-[36px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
+        <p class="text-xs italic mt-[50px] p-2 xl:text-lg xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="30" class="m-auto"></a></p>
       </div>
     </div>
     <div class="m-auto relative" id="right3">

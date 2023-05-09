@@ -1,6 +1,6 @@
 <template>
     <Contattami />
-    <Footer />
+    <Footer class="fixed" />
 </template>
 
 <script>

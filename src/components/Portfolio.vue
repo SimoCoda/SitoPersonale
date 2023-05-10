@@ -33,90 +33,90 @@
   <div>
     <div class="flex w-full mb-14 mt-10 2xl:mb-0">
     <div class="m-auto relative" id="left1">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo1">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo1">
         <img src="../assets/image/portfolio/covid.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo1">
         <div>  
-          <a href="https://trackingcovid.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">Covid-19 Tracking</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Covid19-Tracking" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://trackingcovid.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">Covid-19 Tracking</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/Covid19-Tracking" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo1">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6">Una Web App che raffigura i dati del Covid 19 negli USA. Per creare questa App ho utilizzato due diverse API, una per raccogliere tutti i dati globali mentre l’altro per prendere tutti i dati di un singolo Stato.</p>
-      <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Covid19-Tracking/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto 2xl:"></a></p></div>
+      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo1">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[18px] md:leading-6">Una Web App che raffigura i dati del Covid 19 negli USA. Per creare questa App ho utilizzato due diverse API, una per raccogliere tutti i dati globali mentre l’altro per prendere tutti i dati di un singolo Stato.</p>
+      <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center md:text-[15px]">Per info più specifiche:<a href="https://github.com/SimoCoda/Covid19-Tracking/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     <div class="m-auto relative" id="right1">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo2">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo2">
         <img src="../assets/image/portfolio/ecommerce.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo2">
         <div>
-          <a href="https://e-commerce-synthetic-meat.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">E-commerce carni</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/E-commerce" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://e-commerce-synthetic-meat.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">E-commerce carni</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/E-commerce" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo2">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6">In questo progetto ho voluto creare un qualcosa che al mondo d’oggi si usa praticamente ovunque: un E-commerce. Grazie ad un API sono riuscito a recuperare i vari prodotti che poi son stati stampati nella Home con 
+      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo2">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[14px] md:leading-5">In questo progetto ho voluto creare un qualcosa che al mondo d’oggi si usa praticamente ovunque: un E-commerce. Grazie ad un API sono riuscito a recuperare i vari prodotti che poi son stati stampati nella Home con 
         i relativi prezzi. Successivamente ho voluto aggiungere due page, una di info e una relativa al carrello nella quale si sarebbero trovati tutti i prodotti aggiunti con le relative quantità. Inoltre nella somma totale dei prezzi viene applicato 
         uno sconto del 10% nel caso ci sia un acquisto superiore ai tre prodotti.</p>
-      <div class="flex"><p class="text-[9px] italic -mt-2 m-auto 2xl:text-[15px] 2xl:text-center 2xl:-mt-[13px]">Per info più specifiche:<a href="https://github.com/SimoCoda/E-commerce/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+      <div class="flex"><p class="text-[9px] italic -mt-2 m-auto 2xl:text-[15px] 2xl:text-center 2xl:-mt-[13px] md:text-[14px]">Per info più specifiche:<a href="https://github.com/SimoCoda/E-commerce/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     </div>
     <div class="flex w-full mb-14 2xl:mb-0 2xl:mt-10">
     <div class="m-auto relative" id="left2">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo3">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo3">
         <img src="../assets/image/portfolio/tria.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo3">
         <div>
-          <a href="https://gameoftiktak.netlify.app/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">Tiktok Toe</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/TikTok-Toe" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://gameoftiktak.netlify.app/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">Tiktok Toe</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/TikTok-Toe" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo3">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6">Il classico gioco della TRIA, penso tutti lo conosciate. Ci sono due giocatori che, nel mio caso, ho dato la possibilità di scegliere i nomi ad inizio gioco anche se poi c’è la possibilità di
+      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo3">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[14px] md:leading-5">Il classico gioco della TRIA, penso tutti lo conosciate. Ci sono due giocatori che, nel mio caso, ho dato la possibilità di scegliere i nomi ad inizio gioco anche se poi c’è la possibilità di
         modificarli anche durante la sfida. L’obiettivo del gioco è quello di occupare con lo stesso simbolo 3 quadrati in qualsiasi senso (verticale, orizzontale oppure obliquo) per portarsi a casa un punto. Inoltre ho voluto implementare il gioco 
         con una classifica sapendo che anche in questi semplici giochi sono molto competitivo.</p>
-        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center 2xl:mt-0">Per info più specifiche:<a href="https://github.com/SimoCoda/TikTok-Toe/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center 2xl:mt-0 md:text-[14px]">Per info più specifiche:<a href="https://github.com/SimoCoda/TikTok-Toe/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     <div class="m-auto relative" id="right2">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo4">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo4">
         <img src="../assets/image/portfolio/quality.png" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo4">
         <div>
-          <a href="https://quality-of-life-in-cities.vercel.app/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">La qualità della vita</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Quality_of_life_in_cities" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://quality-of-life-in-cities.vercel.app/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">La qualità della vita</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/Quality_of_life_in_cities" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo4">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6">Questa è stata una delle mie prime Web App costruite con Javascript. La logica di questa applicazione è molto semplice: nella Home troveremo una casella di ricerca in cui ci sarà la possibilità di scrivere un nome 
+      <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo4">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[15px] md:leading-6">Questa è stata una delle mie prime Web App costruite con Javascript. La logica di questa applicazione è molto semplice: nella Home troveremo una casella di ricerca in cui ci sarà la possibilità di scrivere un nome 
         di una città. Una volta premuto INVIO viene stampato a schermo una serie di dati riguardo la vita nella città selezionata.</p>
-        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Quality_of_life_in_cities/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center md:text-[15px]">Per info più specifiche:<a href="https://github.com/SimoCoda/Quality_of_life_in_cities/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     </div>
     <div class="flex w-full 2xl:mt-10">
     <div class="m-auto relative" id="left3">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo5">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo5">
         <img src="../assets/image/portfolio/counter.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo5">
         <div>
-          <a href="https://simocoda.github.io/Counter/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">Il contatore</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/Counter" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://simocoda.github.io/Counter/"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">Il contatore</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/Counter" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo5">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:mb-4 2xl:leading-6">Il primissimo progetto costruito non appena cominciato a masticare un po’ di javascript è stato proprio questo: il COUNTER. Una counter molto semplice in realtà con al di fuori del
+      <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo5">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:mb-4 2xl:leading-6 md:text-[15px] md:leading-6">Il primissimo progetto costruito non appena cominciato a masticare un po’ di javascript è stato proprio questo: il COUNTER. Una counter molto semplice in realtà con al di fuori del
         numero tre diversi bottoni: il più, il meno e il tasto di reset per azzerare il tutto.</p>
-        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+        <div class="flex"><p class="text-[9px] italic mt-2 m-auto 2xl:text-[15px] 2xl:text-center md:text-[15px]">Per info più specifiche:<a href="https://github.com/SimoCoda/Counter/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
       </div>
     </div>
     <div class="m-auto relative" id="right3">
-      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px]" v-if="!watchInfo6">
+      <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo6">
         <img src="../assets/image/portfolio/miosito.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo6">
         <div>
-          <a href="https://simocoda.github.io/github"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px]">Il mio primo sito</h2></a>
-          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10">Per il codice:</p><a href="https://github.com/SimoCoda/SimoCoda.github.io" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12"></a></div>
+          <a href="https://simocoda.github.io/github"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">Il mio primo sito</h2></a>
+          <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/SimoCoda.github.io" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
         </div>
       </div>
-      <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col" @click="goInfo6">
-        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:mb-3 2xl:leading-6">Il mio primo sito web. Mi piace tenerlo per ricordarmi sempre da cosa sono partito, dalle prime volte che ho comicniato a scrivere codice e dal primo progetto che mi ha fatto immergere in questo fantastico mondo.
+      <div v-else class="h-72 w-44 m-auto rounded-2xl border-2 bg-white border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo6">
+        <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:mb-3 2xl:leading-6 md:text-[15px] md:leading-6">Il mio primo sito web. Mi piace tenerlo per ricordarmi sempre da cosa sono partito, dalle prime volte che ho comicniato a scrivere codice e dal primo progetto che mi ha fatto immergere in questo fantastico mondo.
         Il sito non è nulla di che, troviamo solamente html e css con una piccola parte di javascript per quando rigurda la parte del "contattami", ma a me piace tenerlo come ricordo.
         </p>
       </div>

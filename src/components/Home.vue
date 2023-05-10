@@ -68,7 +68,7 @@
         </div>
       </div>
       </div>
-      <button @click="showSkills" class="border-2 border-cyan-400">
+      <button @click="showSkills">
         <h3 class="text-left pb-3 mt-3"><img src="../assets/image/home/arrowLeft.png" alt="back" class="w-3 ml-5 mr-2 2xl:w-5 md:w-5"></h3>
       </button>
     </div>

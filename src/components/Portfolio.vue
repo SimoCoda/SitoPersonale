@@ -122,7 +122,7 @@
       </div>
     </div>
     </div>
-    <a href="#top"><img src="../assets/image/portfolio/frecciaup.png" alt="frecciasu" class="w-7 mt-4 float-right mr-5 2xl:w-10 2xl:pt-16" id="arrowUp"></a>
+    <a href="#top"><img src="../assets/image/portfolio/frecciaup.png" alt="frecciasu" class="w-7 mt-4 float-right mr-5 2xl:w-10 2xl:pt-4" id="arrowUp"></a>
   </div>
 </template>
 

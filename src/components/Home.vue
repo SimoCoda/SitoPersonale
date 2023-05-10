@@ -66,7 +66,7 @@
           </div>
         </div>
         </div>
-        <h3 class="text-left pb-3 mt-3" @click="showSkills"><img src="../assets/image/home/arrowLeft.png" alt="back" class="w-3 ml-5 2xl:w-5 md:w-5"></h3>
+        <h3 class="text-left pb-3 mt-3"><img src="../assets/image/home/arrowLeft.png" alt="back" class="w-3 ml-5 mr-2 2xl:w-5 md:w-5" @click="showSkills"></h3>
       </div>
   </div>
   <div class="fixed bottom-0 right-0 left-0 w-full">

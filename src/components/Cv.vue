@@ -19,10 +19,10 @@
 
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul :class="showMenu ? 'flex' : 'hidden'" class="flex-col mt-1 space-y-3 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-14 md:mt-2">
-        <li class="text-black text-2xl cursor-pointer md:text-xl" @click="goBio">Home</li>
-        <li class="text-black text-2xl cursor-pointer underline md:text-xl" @click="goCv">Cv</li>
-        <li class="text-black text-2xl cursor-pointer md:text-xl" @click="goPortfolio">Portfolio</li>
-        <li class="text-black text-2xl cursor-pointer md:text-xl" @click="goContattami">Contattami</li>
+        <li class="text-black text-2xl cursor-pointer 2xl:text-3xl md:text-xl" @click="goBio">Home</li>
+        <li class="text-black text-2xl cursor-pointer 2xl:text-3xl underline md:text-xl" @click="goCv">Cv</li>
+        <li class="text-black text-2xl cursor-pointer 2xl:text-3xl md:text-xl" @click="goPortfolio">Portfolio</li>
+        <li class="text-black text-2xl cursor-pointer 2xl:text-3xl md:text-xl" @click="goContattami">Contattami</li>
       </ul>
     </nav>
   </div>

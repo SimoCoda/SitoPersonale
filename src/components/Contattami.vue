@@ -29,7 +29,7 @@
 
   <email />
 
-  <div class="fixed bottom-0 right-0 left-0 w-full">
+  <div class="relative md:top-[136px] 2xl:top-0">
     <div class="bg-white h-24 2xl:h-28 2xl:bottom-0 2xl:left-0 2xl:right-0 md:h-36">
         <div class="mt-16 ">
             <div class="container flex absolute mt-3 pl-24 2xl:w-full 2xl:pt-6">

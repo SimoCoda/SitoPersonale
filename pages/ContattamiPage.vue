@@ -1,14 +1,12 @@
 <template>
     <Contattami />
-    <Footer />
 </template>
 
 <script>
 import Contattami from '../src/components/Contattami.vue'
-import Footer from '../src/components/Footer.vue'
 
 export default {
     name: 'ContattamiPage',
-    components: {Contattami,Footer}
+    components: {Contattami,}
 }
 </script>

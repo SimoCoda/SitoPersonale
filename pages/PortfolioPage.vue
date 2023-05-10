@@ -1,6 +1,6 @@
 <template>
     <Portfolio />
-    <Footer />
+    <Footer class="2xl:pt-32" />
 </template>
 
 <script>

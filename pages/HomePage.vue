@@ -1,14 +1,14 @@
 <template>
     <Home />
-    <Footer />
+    <!-- <Footer class="fixed-bottom"/> -->
 </template>
 
 <script>
 import Home from '../src/components/Home.vue'
-import Footer from '../src/components/Footer.vue'
+// import Footer from '../src/components/Footer.vue'
 
 export default {
     name: 'HomePage',
-    components: {Home,Footer}
+    components: {Home,}
 }
 </script>

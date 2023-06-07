@@ -30,7 +30,7 @@
     <p class="text-[11px] text-center text-red-600 relative 2xl:text-xl 2xl:underline italic" id="informazione">Cliccando sull'immagine potrai avere informazioni sul progetto.</p>
   </div>
   <h1 class="text-center m-auto text-8xl 2xl:text-9xl">P<span class="text-6xl 2xl:text-7xl">ROGETTI</span></h1>
-  <div class="truncate">
+  <div>
     <div class="flex w-full mb-14 mt-10 2xl:mb-0">
     <div class="m-auto relative" id="left1">
       <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo1">

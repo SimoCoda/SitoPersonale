@@ -122,6 +122,38 @@
       </div>
     </div>
     </div>
+    <div class="flex w-full mb-14 mt-10 2xl:mb-0">
+      <div class="m-auto relative" id="left4">
+        <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo7">
+          <img src="../assets/image/portfolio/montagna.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo7">
+          <div>  
+            <a href="https://copia-sito-montagna.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">La montagna</h2></a>
+            <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/Clone_sito_montagna" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
+          </div>
+        </div>
+        <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo7">
+          <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[18px] md:leading-6">Dopo aver studiato alcune funzionalita di <a class="font-bold cursor-pointer" href="https://greensock.com/gsap/" target="_blank">GSAP</a>, per la creazione di alcune animazioni, ho deciso di ricreare un sito per cercare
+            di allenarmi. Questo è il risultato. All'intenro di questo sito possiamo trovare del codice <span class="font-bold">HTML, CSS, JAVASCRIPT.</span><br><br>Il sito non è ancora responsive quindi la visualizzazione è consigliata solamente dal pc.
+          </p>
+        <div class="flex"></div>
+        </div>
+      </div>
+      <div class="m-auto relative hidden" id="right4">
+        <div class="progetto relative h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] md:w-[300px] md:h-96" v-if="!watchInfo2">
+          <img src="../assets/image/portfolio/ecommerce.jpg" alt="progetto1" class="border-b-2 border-b-black rounded-t-xl 2xl:border-r-2 2xl:border-b-0 2xl:border-r-black 2xl:rounded-l-[15px] 2xl:rounded-r-none" @click="goInfo2">
+          <div>
+            <a href="https://e-commerce-synthetic-meat.netlify.app/" target="_blank"><h2 class="text-center mt-6 mb-6 text-base 2xl:text-4xl 2xl:ml-5 2xl:mb-[72px] md:text-2xl">E-commerce carni</h2></a>
+            <div class="flex m-auto"><p class="text-sm ml-3 mt-1 italic 2xl:text-2xl 2xl:ml-5 2xl:pt-10 md:text-xl">Per il codice:</p><a href="https://github.com/SimoCoda/E-commerce" target="_blank"><img src="../assets/image/social/github_logo.png" alt="logo github" width="25" class="ml-3 2xl:pt-12 md:pt-1"></a></div>
+          </div>
+        </div>
+        <div v-else class="h-72 w-44 m-auto rounded-2xl bg-white border-2 border-black 2xl:h-60 2xl:w-[750px] 2xl:flex 2xl:border-[3px] 2xl:flex-col md:w-[300px] md:h-96" @click="goInfo2">
+          <p class="text-[9px] p-2 italic 2xl:text-[15px] 2xl:leading-6 md:text-[14px] md:leading-5">In questo progetto ho voluto creare un qualcosa che al mondo d’oggi si usa praticamente ovunque: un E-commerce. Grazie ad un API sono riuscito a recuperare i vari prodotti che poi son stati stampati nella Home con 
+          i relativi prezzi. Successivamente ho voluto aggiungere due page, una di info e una relativa al carrello nella quale si sarebbero trovati tutti i prodotti aggiunti con le relative quantità. Inoltre nella somma totale dei prezzi viene applicato 
+          uno sconto del 10% nel caso ci sia un acquisto superiore ai tre prodotti.</p>
+        <div class="flex"><p class="text-[9px] italic -mt-2 m-auto 2xl:text-[15px] 2xl:text-center 2xl:-mt-[13px] md:text-[14px]">Per info più specifiche:<a href="https://github.com/SimoCoda/E-commerce/blob/main/README.pdf" target="_blank"><img src="../assets/image/portfolio/info.png" alt="info" width="25" class="m-auto"></a></p></div>
+        </div>
+      </div>
+      </div>
     <a href="#top"><img src="../assets/image/portfolio/frecciaup.png" alt="frecciasu" class="w-7 mt-4 float-right mr-5 2xl:hidden" id="arrowUp"></a>
   </div>
 </template>
@@ -142,6 +174,7 @@ export default {
       const watchInfo4 = ref(false)
       const watchInfo5 = ref(false)
       const watchInfo6 = ref(false)
+      const watchInfo7 = ref(false)
 
       const goBio = () => {
         router.push('/')
@@ -161,9 +194,9 @@ export default {
       const goInfo2 = () => {
         watchInfo2.value = !watchInfo2.value
       }
-        const goInfo3 = () => {
-          watchInfo3.value = !watchInfo3.value
-        }
+      const goInfo3 = () => {
+        watchInfo3.value = !watchInfo3.value
+      }
       const goInfo4 = () => {
         watchInfo4.value = !watchInfo4.value
       }
@@ -173,8 +206,11 @@ export default {
       const goInfo6 = () => {
         watchInfo6.value = !watchInfo6.value
       }
+      const goInfo7 = () => {
+        watchInfo7.value = !watchInfo7.value
+      }
 
-      return { showMenu, watchInfo1,watchInfo2,watchInfo3,watchInfo4,watchInfo5,watchInfo6, toggleNav, goBio, goCv, goPortfolio, goContattami,goInfo1,goInfo2,goInfo3,goInfo4,goInfo5,goInfo6 };
+      return { showMenu, watchInfo1,watchInfo2,watchInfo3,watchInfo4,watchInfo5,watchInfo6,watchInfo7, toggleNav, goBio, goCv, goPortfolio, goContattami,goInfo1,goInfo2,goInfo3,goInfo4,goInfo5,goInfo6,goInfo7, };
   }
 }
 </script>
@@ -261,6 +297,11 @@ export default {
 
   #right3{
     animation: rightin 5s;
+    animation-timing-function: ease-in-out;
+  }
+
+  #left4{
+    animation: leftin 6s;
     animation-timing-function: ease-in-out;
   }
 
